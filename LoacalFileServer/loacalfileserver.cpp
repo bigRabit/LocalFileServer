@@ -116,8 +116,9 @@ void LoacalFileServer::display(QString* currentPath)
 		{
 			item->setText(1,QString::number(tmpFileInfo.size()));
 		}
+		
 		item->setText(2,tmpFileInfo.created().toString("MMM dd yyyy"));
-		//item->setText(3,tmpFileInfo.group());
+		
 		item->setText(3,tmpFileInfo.lastModified().toString("MMM dd yyyy"));
 
 		QPixmap pixmap(tmpFileInfo.isDir()?"./dir.png":"./file.png");

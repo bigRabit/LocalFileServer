@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'loacalfileserver.ui'
 **
-** Created: Fri Jul 31 15:40:47 2015
+** Created: Mon Aug 3 14:54:22 2015
 **      by: Qt User Interface Compiler version 4.4.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
